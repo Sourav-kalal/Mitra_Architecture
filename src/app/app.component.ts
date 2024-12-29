@@ -26,27 +26,27 @@ export class AppComponent {
   serviceCardDetails = [
     {
       title: 'Architectural',
-      imageUrl: '/architectural.png',
+      imageUrl: './public/architectural.png',
       description: 'We design modern and sustainable buildings that meet your needs.'
     },
     {
       title: 'Structural',
-      imageUrl: '/structeral.png',
+      imageUrl: './public/structeral.png',
       description: 'Our structural solutions ensure safety and stability in every project.'
     },
     {
       title: 'Interior',
-      imageUrl: '/interior.jpeg',
+      imageUrl: './public/interior.jpeg',
       description: 'Create beautiful and functional spaces with our interior design services.'
     },
     {
       title: 'Landscaping',
-      imageUrl: '/landscaping.jpeg',
+      imageUrl: './public/landscaping.jpeg',
       description: 'Transform your outdoor spaces with our expert landscaping services.'
     },
     {
       title: 'Construction',
-      imageUrl: '/construction.jpeg',
+      imageUrl: './public/construction.jpeg',
       description: 'We provide comprehensive construction services from start to finish.'
     }
   ];
@@ -54,17 +54,17 @@ export class AppComponent {
   cardDetails = [
     {
       title: 'Modern Apartment',
-      imageUrl: '/modern-apartment.png',
+      imageUrl: './public/modern-apartment.png',
       description: 'A stunning apartment designed for modern living.'
     },
     {
       title: 'Luxury Villa',
-      imageUrl: '/luxury-villia.png',
+      imageUrl: './public/luxury-villia.png',
       description: 'An elegant villa with luxurious amenities.'
     },
     {
       title: 'Office Complex',
-      imageUrl: '/office-complex.png',
+      imageUrl: './public/office-complex.png',
       description: 'State-of-the-art office spaces for businesses.'
     }
   ];

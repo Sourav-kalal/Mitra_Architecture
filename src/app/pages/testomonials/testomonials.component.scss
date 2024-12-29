@@ -1,0 +1,180 @@
+
+$font-primary: 'Poppins', Arial, sans-serif;
+$primary: #ffc6be;
+$black : #000000;
+.ftco-section{
+    background-color: #DDDDDD;
+    height: 100vh;
+    .carousel-item{
+        padding: 20px;
+    }
+}
+a {
+  transition: 0.3s all ease;
+  color: $primary;
+  &:hover,
+  &:focus {
+    text-decoration: none !important;
+    outline: none !important;
+    box-shadow: none;
+  }
+}
+
+button {
+  transition: 0.3s all ease;
+  .carousel-control-next-icon,.carousel-control-prev-icon {
+    background-color: black;
+    border-radius: 50%;
+  }
+  &:hover,
+  &:focus {
+    text-decoration: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+
+h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
+  line-height: 1.2;
+  font-weight: 400;
+  font-family: $font-primary;
+  color: $black;
+}
+
+.heading-section {
+  font-size: 28px;
+}
+
+.img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.owl-carousel {
+  position: relative;
+
+  .owl-item {
+    opacity: 1;
+    &.active {
+      opacity: 1;
+    }
+  }
+
+  .owl-nav {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    .owl-prev,
+    .owl-next {
+      position: absolute;
+      transform: translateY(-50%);
+      margin-top: 60px;
+      color: rgba(0, 0, 0, 0.2) !important;
+
+      p {
+        span,
+        small {
+          display: block;
+          color: $black;
+          line-height: 0.8;
+        }
+      }
+
+      small {
+        text-transform: uppercase;
+      }
+
+      span {
+        line-height: 0;
+        &:before {
+          font-size: 40px;
+        }
+      }
+
+      &:hover {
+        small {
+          color: $primary;
+        }
+
+        span {
+          &:before {
+            color: $primary;
+          }
+        }
+      }
+    }
+
+    .owl-prev {
+      left: 50%;
+      margin-left: -35px;
+    }
+
+    .owl-next {
+      right: 50%;
+      margin-right: -35px;
+    }
+  }
+
+  .owl-dots {
+    text-align: center;
+    margin-top: 20px;
+
+    .owl-dot {
+      width: 10px;
+      height: 10px;
+      margin: 5px;
+      border-radius: 50%;
+      background: transparent;
+      border: 1px solid $black;
+
+      &:hover,
+      &:focus {
+        outline: none !important;
+      }
+
+      &.active {
+        background: $primary;
+        border: 1px solid $primary;
+      }
+    }
+  }
+}
+
+.work-wrap {
+    flex-direction: row-reverse;
+    padding: 0 10rem;
+    gap:3rem;
+  .text,
+  .img {
+    width: 50%;
+  }
+
+  .img {
+    height: auto;
+    height: 75vh;;
+    border-radius: 2%;
+    box-shadow: 0 0 0 4px #D8D8DB;
+  }
+
+  .text {
+    .text-block{
+      height: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      p{
+        display: block;
+        text-align: justify;
+      }
+    }
+    h2 {
+      font-size: 20px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+  }
+}

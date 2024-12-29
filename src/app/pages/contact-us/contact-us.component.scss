@@ -1,0 +1,47 @@
+.contact-us-container{
+    background-color: #DDDDDD;
+    .section-title{
+        padding-top: 5rem !important;
+    }
+    .contact-us{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10%;
+        padding: 2% 10%;
+        width: 100%;
+        .form-container{
+            background-color: white;
+            display: flex;
+            gap: 1rem;
+            width: 100%;
+            padding: 3%;
+            border-radius: 5%;
+            flex-direction: column;
+            form{
+                width: 100%;
+                display: flex;
+                gap: 1rem;
+                flex-direction: column;
+            }
+            .text-icon-block{
+                display: flex;
+                font-size: 16px;
+                align-items: center;
+                gap: 8px;
+                i{
+                    padding-top: 4px;
+                }
+            }
+            .contact-title{
+                font-weight: 700;
+            }
+            .map-block{
+                width: 100%;
+                height: fit-content;
+                iframe{
+                    border-radius: 16px;
+                }
+            }
+        }
+    }
+}

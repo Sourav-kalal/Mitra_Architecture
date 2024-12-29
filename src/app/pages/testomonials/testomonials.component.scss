@@ -6,7 +6,7 @@ $black : #000000;
     background-color: #DDDDDD;
     height: 100vh;
     .carousel-item{
-        padding: 20px;
+        padding: 0 20px;
     }
 }
 a {
@@ -25,6 +25,7 @@ button {
   .carousel-control-next-icon,.carousel-control-prev-icon {
     background-color: black;
     border-radius: 50%;
+    opacity: 0.2;
   }
   &:hover,
   &:focus {
@@ -186,6 +187,20 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
       flex-direction: row;
       padding: 0 1rem;
       gap: 1rem;
+      .img{
+        height: 25vh;
+        background-size: contain;
+      }
+      .text{
+        .text-block{
+          h2{
+            font-size: 0.7rem;
+          }
+          p{
+            font-size: 0.5rem;
+          }
+        }
+      }
     }
   }
 }

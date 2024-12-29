@@ -49,6 +49,9 @@
 @media (max-width: 768px) {
     .contact-us-container{
         padding-bottom: 2rem;
+        .section-title{
+            padding-top: 2rem !important;
+        }
         .contact-us{
             display: flex;
             flex-direction: column;

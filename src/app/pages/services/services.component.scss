@@ -16,7 +16,7 @@
             box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
             background: gainsboro;
             .card-img-top{
-                padding: 16px;
+                padding: 6px;
                 box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
                 img{
                     height: 30vh;
@@ -30,6 +30,9 @@
 }
 @media (max-width: 768px) {
     .service-section{
+        .section-title{
+            padding-bottom: 2rem !important;
+        }
         .cards-body{
             gap: 1rem;
             h5{

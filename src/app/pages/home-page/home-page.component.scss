@@ -1,6 +1,6 @@
 @import '../../../variables';
 .home-page-body{
-    background-image: url('./public/Mitra_banner.png');
+    background-image: url('../../../assets/public/Mitra_banner.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -26,6 +26,16 @@
         }
         .Arbutus{
             font-family: 'Arbutus';
+        }
+    }
+}
+@media (max-width: 768px) {
+    .home-page-body{
+        .legend-text{
+            span{
+                padding: 0.2rem;
+                font-size: 1.3rem;
+            }
         }
     }
 }

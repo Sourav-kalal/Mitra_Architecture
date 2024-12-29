@@ -59,3 +59,31 @@
 .visible {
     transform: translateY(0); /* Show the navbar */
 }
+.navbar-toggler{
+    display: none !important;
+}
+@media (max-width: 768px) {
+    .nav-bar{
+        justify-content: space-between !important;
+        width: 100%;
+        padding: 1rem;
+        .navbar-toggler{
+            display: initial !important;
+            width: initial;
+        }
+        .desktop{
+            display: none !important;
+        }
+        .nav-links {
+            flex-direction: column;
+            width: 80% !important;
+            display: none;
+        }
+        .collapse.show .nav-links {
+            display: flex;
+        }
+        .navbar-toggler {
+            display: inline-block;
+        }
+    }
+}

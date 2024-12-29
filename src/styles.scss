@@ -16,3 +16,12 @@ body{
         padding: 3rem !important;
     }
 }
+@media (max-width: 768px) {
+    body{
+        .section-title{
+            font-size: 1.5rem;
+            font-weight: 800;
+            padding: 2rem !important;
+        }
+    }
+}

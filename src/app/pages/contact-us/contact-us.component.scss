@@ -45,3 +45,14 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .contact-us-container{
+        padding-bottom: 2rem;
+        .contact-us{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+    }
+}

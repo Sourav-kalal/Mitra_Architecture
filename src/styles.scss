@@ -1,0 +1,18 @@
+@import 'variables';
+
+body{
+    margin: 0;
+    .flex-align-centre{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-title{
+        font-family: $font-family;
+        height: 10vh;
+        width: 100%;
+        font-size: $font-size-2rem;
+        font-weight: $font-bold;
+        padding: 3rem !important;
+    }
+}
